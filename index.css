@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    backdrop-filter: blur(9px) saturate(180%);
+    -webkit-backdrop-filter: blur(9px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.10);
+    border-radius: 12px;
+    border: 1px solid rgba(162, 162, 162, 0.125);
+    padding: 2rem;
+    transform: translate(-50%,-50% );
+}
+
+.container h1{
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px; 
+    border-bottom: 5px solid black;
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 22px 0;
+}
+
+.box input{
+    width: 75%;
+    background: none;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.btn{
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    border-radius: 10px;
+    padding: 10px 21px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: white;
+    background: black;
+    opacity: 0.5;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
